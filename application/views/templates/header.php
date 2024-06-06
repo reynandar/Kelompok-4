@@ -202,11 +202,6 @@
                             <span class="nav-text">Beranda</span>
                         </a>
                     </li>
-                    <li><a class=" ai-icon" href="<?= base_url(); ?>nilai" aria-expanded="false">
-                            <i class="flaticon-381-networking"></i>
-                            <span class="nav-text">Nilai</span>
-                        </a>
-                    </li>
                     <?php foreach ($menu as $m) : ?>
                         <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
                                 <!--looping Nama Menu Dari Database -->
